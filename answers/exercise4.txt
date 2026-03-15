@@ -1,0 +1,5 @@
+docker start -i upbeat_hellman
+root@a847be2f869d:/# curl -sL https:<em>//deb.nodesource.com/setup_24.x | bash</em>
+root@a847be2f869d:/# apt install -y nodejs
+root@a847be2f869d:/# node usr/src/app/index.js 
+Hello World

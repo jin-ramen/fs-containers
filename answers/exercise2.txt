@@ -1,0 +1,4 @@
+docker run -it ubuntu bash
+mkdir usr/file/app
+touch usr/file/app/index.js
+exit
