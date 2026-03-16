@@ -1,0 +1,23 @@
+the_database> d
+{
+  acknowledged: true,
+  insertedId: ObjectId('69b7dd8a7a09263e3c591667')
+}
+the_database> db.todos.find({})
+[
+  {
+    _id: ObjectId('69b7c60c84b7120041591667'),
+    text: 'Write code',
+    done: true
+  },
+  {
+    _id: ObjectId('69b7c60c84b7120041591668'),
+    text: 'Learn about containers',
+    done: false
+  },
+  {
+    _id: ObjectId('69b7dd8a7a09263e3c591667'),
+    text: 'Adding from command line',
+    done: false
+  }
+]
